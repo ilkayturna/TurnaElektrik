@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
                   <a href={`tel:${CONTACT_INFO.phone.replace(/\s/g, '')}`} className="text-lg text-blue-600 hover:underline block">
                     {CONTACT_INFO.phone}
                   </a>
-                  <p className="text-sm text-gray-500">7/24 Acil Durum İçin Arayabilirsiniz</p>
+                  <p className="text-sm text-gray-500">Arayabilirsiniz</p>
                 </div>
               </div>
 

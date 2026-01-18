@@ -37,14 +37,9 @@ const Features: React.FC = () => {
           {/* Resmi Fiyat Listesi Banner */}
           <div className="mt-12 bg-gradient-to-r from-brand-dark to-gray-800 rounded-2xl p-8 text-center text-white">
             <h3 className="text-2xl font-bold mb-2">📜 Resmi Fiyat Tarifesi</h3>
-            <p className="text-gray-300 mb-4">
+            <p className="text-gray-300 mb-6">
               Fiyatlarımız <span className="text-brand-yellow font-semibold">İstanbul Elektrik Teknisyenleri Esnaf ve Sanatkarlar Odası</span>'nın resmi tarifesine göre belirlenmektedir.
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm mb-4">
-              <span className="bg-white/10 px-3 py-1 rounded-full">Arıza Tespit: 737 TL'den başlayan</span>
-              <span className="bg-white/10 px-3 py-1 rounded-full">Keşif Ücreti: 3.125 TL'den başlayan</span>
-              <span className="bg-white/10 px-3 py-1 rounded-full">Topraklama Ölçüm: 7.340 TL</span>
-            </div>
             <a 
               href="tel:05337766843" 
               className="inline-block bg-brand-yellow text-brand-dark font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition-colors"

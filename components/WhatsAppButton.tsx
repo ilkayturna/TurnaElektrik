@@ -11,7 +11,7 @@ const WhatsAppButton: React.FC = () => {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 left-6 z-40 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-full shadow-2xl transition-all hover:scale-105 group"
+      className="fixed bottom-6 right-6 z-40 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-full shadow-2xl transition-all hover:scale-105 group"
       aria-label="WhatsApp ile iletişime geç"
     >
       {/* WhatsApp Icon */}

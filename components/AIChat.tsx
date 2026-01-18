@@ -52,7 +52,7 @@ const AIChat: React.FC = () => {
       {/* Floating Action Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-6 right-6 p-4 bg-brand-yellow text-brand-dark rounded-full shadow-2xl hover:bg-yellow-400 transition-all z-40 flex items-center gap-2 font-bold ${isOpen ? 'hidden' : 'flex'}`}
+        className={`fixed bottom-6 left-6 p-4 bg-brand-yellow text-brand-dark rounded-full shadow-2xl hover:bg-yellow-400 transition-all z-40 flex items-center gap-2 font-bold ${isOpen ? 'hidden' : 'flex'} hidden sm:flex`}
       >
         <MessageSquare size={24} />
         <span className="hidden sm:inline">Canlı Destek</span>

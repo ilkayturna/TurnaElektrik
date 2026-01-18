@@ -1,6 +1,6 @@
 import React from 'react';
-import { Phone, MapPin, Instagram, Clock } from 'lucide-react';
-import { CONTACT_INFO, BUSINESS_HOURS } from '../constants';
+import { Phone, MapPin, Clock, Truck } from 'lucide-react';
+import { CONTACT_INFO } from '../constants';
 
 const Contact: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6 text-gray-900">İletişime Geçin</h2>
             <p className="text-gray-600 mb-8">
-              Elektrik arızaları, montaj işlemleri veya ürün bilgisi almak için bizi arayabilir veya mağazamızı ziyaret edebilirsiniz.
+              Elektrik arızaları, montaj işlemleri veya bilgi almak için bizi arayabilirsiniz. Tüm İstanbul'a hizmet veriyoruz!
             </p>
 
             <div className="space-y-6">
@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
                   <MapPin className="text-brand-dark" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900">Adres</h3>
+                  <h3 className="font-bold text-gray-900">Merkez Adres</h3>
                   <p className="text-gray-600">
                     {CONTACT_INFO.address}
                   </p>
@@ -45,25 +45,28 @@ const Contact: React.FC = () => {
 
               <div className="flex items-start">
                 <div className="bg-yellow-100 p-3 rounded-full mr-4">
-                  <Clock className="text-brand-dark" size={24} />
+                  <Truck className="text-brand-dark" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900">Çalışma Saatleri</h3>
+                  <h3 className="font-bold text-gray-900">Hizmet Bölgesi</h3>
                   <p className="text-gray-600">
-                    Açılış: {BUSINESS_HOURS.split('-')[0]}
+                    <span className="font-semibold text-brand-dark">Tüm İstanbul</span> - Her ilçeye gidiyoruz!
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <div className="bg-yellow-100 p-3 rounded-full mr-4">
-                  <Instagram className="text-brand-dark" size={24} />
+                  <Clock className="text-brand-dark" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900">Sosyal Medya</h3>
-                  <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
-                    {CONTACT_INFO.instagramHandle}
-                  </a>
+                  <h3 className="font-bold text-gray-900">Çalışma Saatleri</h3>
+                  <p className="text-gray-600">
+                    <span className="font-medium">Hafta içi:</span> 09:00 - 21:00
+                  </p>
+                  <p className="text-gray-600">
+                    <span className="font-medium">Hafta sonu:</span> 12:00 - 21:00
+                  </p>
                 </div>
               </div>
             </div>

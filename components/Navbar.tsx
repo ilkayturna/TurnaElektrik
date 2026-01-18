@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
             </div>
             <div>
               <h1 className="font-bold text-xl tracking-wide">TURNA</h1>
-              <span className="text-xs text-brand-yellow uppercase tracking-wider block -mt-1">Elektrik & Elektronik</span>
+              <span className="text-xs text-brand-yellow uppercase tracking-wider block -mt-1">Elektrik</span>
             </div>
           </div>
 

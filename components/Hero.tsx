@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         <div className="lg:w-2/3">
           <div className="flex items-center gap-2 mb-4">
             <span className="bg-green-500 text-xs font-bold px-2 py-1 rounded text-white">Google 5.0 ⭐⭐⭐⭐⭐</span>
-            <span className="text-gray-300 text-sm">Bağcılar'ın En Güveniliri</span>
+            <span className="text-gray-300 text-sm">İstanbul'un En Güveniliri</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
             Profesyonel Elektrik <br />
